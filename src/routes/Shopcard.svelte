@@ -1,14 +1,16 @@
 <script>
 import {shops} from  "./shopinfo";
+import { goto } from '$app/navigation';
 
- function handleClick() {
-		alert('no more alerts')
-	}
+const handleClick = (/** @type {string} */ route) => {
+        goto("/"+route);
+    }
 </script>
 
 
 
 {#each  shops as shops, i}
+    
     <div class="card">
         <div class="pic">
             <img src={shops.pic} alt="Italian Trulli">
@@ -19,10 +21,7 @@ import {shops} from  "./shopinfo";
         </div>
 
         <div class="link">
- 
-            <button on:click|once={handleClick}>
-                Go to review
-            </button>
+            <button on:click={() => handleClick(shops.name)}> go to review </button>
             
         </div>
 
