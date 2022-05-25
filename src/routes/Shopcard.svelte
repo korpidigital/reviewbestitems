@@ -33,9 +33,12 @@ import {shops} from  "./shopinfo";
 .card{
     flex-direction: row;
     height: 150px;
-    width: 100%;
+    width: 80%;
     display: flex;
     padding: 10px;
+    border: 3px solid black;
+    margin: 5px;
+    border-radius: 25px;
 }
 
 img {
@@ -44,13 +47,26 @@ img {
   object-fit: contain;
 }
 .pic{
- width: 20%;
+ width: 30%;
  text-align: center;
+ 
 }
 .desc{
-    width: 60%;
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+button{
+    height: 100%;
+    width: 100%;
+    background-color: greenyellow;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .link{
-
+    width: 20%;
 }
 </style>
