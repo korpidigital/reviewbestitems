@@ -14,7 +14,7 @@ const config = {
         paths: {
             // change below to your repo name
            base: dev ? 'localhost:3000' : '',
-           base: prod ? '' : 'github.com/korpidigital/reviewbestitems',
+           base: prod ? '' : '/reviewbestitems',
         }
 
     }
