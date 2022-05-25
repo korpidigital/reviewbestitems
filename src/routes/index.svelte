@@ -1,31 +1,44 @@
 <script context="module">
+	import Shopcard from "./Shopcard.svelte"; 
+	import { shops } from "./shopinfo";
 	export const prerender = true;
-</script>
 
-<script>
+
+
 	
 </script>
+		
+
 
 <svelte:head>
 	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<meta name="description" content="Best reviews!" />
 </svelte:head>
 
 <section>
 	<h1>
 		<div class="welcome">
-			<picture>
-				<source srcset="svelte-welcome.webp" type="image/webp" />
-				<img src="svelte-welcome.png" alt="Welcome" />
-			</picture>
+			<p>
+				ReviewBestItems.com
+			</p>
+			<p>
+				Best item reviews for 2022
+			</p>
 		</div>
-
-		to your new<br />SvelteKit app
 	</h1>
 
 	<h2>
-		try editing <strong>src/routes/index.svelte</strong>
+		Add shop card
 	</h2>
+	
+	
+	
+	
+	<Shopcard  />
+	
+	
+	
+	
 
 	
 </section>
@@ -48,13 +61,8 @@
 		width: 100%;
 		height: 0;
 		padding: 0 0 calc(100% * 495 / 2048) 0;
+		background-color: antiquewhite;
 	}
 
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
-	}
+
 </style>

@@ -10,7 +10,7 @@
 </main>
 
 <footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+	<p>Amazon disclaimer here</p>
 </footer>
 
 <style>
@@ -33,9 +33,7 @@
 		padding: 40px;
 	}
 
-	footer a {
-		font-weight: bold;
-	}
+
 
 	@media (min-width: 480px) {
 		footer {
