@@ -1,15 +1,29 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from "@sveltejs/adapter-static"; 
+// was "@sveltejs/adapter-auto"
 
-/** @type {import('@sveltejs/kit').Config} */
+const dev = "development";
+const prod = "production";
+
+/** @type {import(""@sveltejs/kit").Config} */
 const config = {
-	kit: {
-		adapter: adapter(),
+    kit: {
+        adapter: adapter({
+            pages: "docs",
+            assets: "docs"
+        }),
+        paths: {
+            // change below to your repo name
+           base: dev ? 'localhost:3000' : '',
+           base: prod ? '' : 'github.com/korpidigital/reviewbestitems',
+        }
 
-		// Override http methods in the Todo forms
-		methodOverride: {
-			allowed: ['PATCH', 'DELETE']
-		}
-	}
+    }
 };
 
 export default config;
+
+//base: dev ? '' : '/reviewbestitems/',
+//localhost:3000/
+
+
+
