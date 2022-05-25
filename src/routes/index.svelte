@@ -1,5 +1,6 @@
 <script context="module">
 	import Shopcard from "./Shopcard.svelte"; 
+	import '../title.css';
 	import { shops } from "./shopinfo";
 	export const prerender = true;
 
@@ -16,28 +17,16 @@
 </svelte:head>
 
 <section>
-	<h1>
-		<div class="welcome">
-			<p>
-				ReviewBestItems.com
-			</p>
-			<p>
-				Best item reviews for 2022
-			</p>
-		</div>
-	</h1>
-
-	<h2>
-		Add shop card
-	</h2>
-	
-	
-	
+	<div id="wrapper">
+  
+		<p id="stars"><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span></p>
+		<p id="title" contenteditable="true" spellcheck="false"><span>REVIEWBESTITEMS</span><span>.</span><span>COM</span></p>
+		<p id="slogan"><span>Compare</span> best products for <span> you </span>.</p>
+		
+	  </div>
+	  
 	
 	<Shopcard  />
-	
-	
-	
 	
 
 	
@@ -52,17 +41,7 @@
 		flex: 1;
 	}
 
-	h1 {
-		width: 100%;
-	}
 
-	.welcome {
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-		background-color: antiquewhite;
-	}
 
 
 </style>

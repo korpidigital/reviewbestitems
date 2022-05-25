@@ -46,8 +46,9 @@ img {
   object-fit: contain;
 }
 .pic{
- width: 30%;
+
  text-align: center;
+
  
 }
 .desc{
@@ -57,6 +58,13 @@ img {
     display: flex;
     justify-content: center;
     flex-direction: column;
+   
+    
+}
+@media screen and (max-width:560px){
+    .desc{
+        font-size:20px !important;
+    }  
 }
 button{
     height: 100%;
@@ -64,8 +72,14 @@ button{
     background-color: greenyellow;
     text-transform: uppercase;
     font-weight: bold;
+    border-radius: 25px;
+    
+  
 }
 .link{
-    width: 20%;
+    width: 30%;
+    display:block;
+    margin-left:auto;
+    margin-right: 0;
 }
 </style>
