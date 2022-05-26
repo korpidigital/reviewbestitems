@@ -1,18 +1,13 @@
 <script context="module">
 	import Shopcard from "./Shopcard.svelte"; 
 	import '../title.css';
-	import { shops } from "./shopinfo";
 	export const prerender = true;
 
-
-
-	
 </script>
 		
 
-
 <svelte:head>
-	<title>Home</title>
+	<title>Best reviews!</title>
 	<meta name="description" content="Best reviews!" />
 </svelte:head>
 
