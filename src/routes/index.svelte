@@ -1,6 +1,6 @@
 <script context="module">
 	import Shopcard from "./Shopcard.svelte"; 
-	import '../title.css';
+
 	export const prerender = true;
 
 </script>
@@ -11,15 +11,12 @@
 	<meta name="description" content="Best reviews!" />
 </svelte:head>
 
+
+
+
+
 <section>
-	<div id="wrapper">
-  
-		<p id="stars"><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span></p>
-		<p id="title" contenteditable="true" spellcheck="false"><span>REVIEWBESTITEMS</span><span>.</span><span>COM</span></p>
-		<p id="slogan"><span>Compare</span> best products for <span> you </span>.</p>
-		
-	  </div>
-	  
+	
 	
 	<Shopcard  />
 	
