@@ -1,5 +1,6 @@
 
 //When searching for items, paste "&sort=review-count-rank" at the end of the hyperlink to rank items by number of reviews to truly see the more popular items.
+//Your unique Associate ID is reviewbestite-20
 
 
 
@@ -19,7 +20,7 @@ export let drones = [
         "review3" : "I got this and it's so much fun. The whole family think it's really cool and always ask to play with it. Claims to be for kids but I feel its good for any adult as well. Very nice product.",
         "review4" : "I’ve had multiple indoor drones and they’ve all been terrible. I spend more time adjusting the trim than flying the things and they still are nearly impossible to fly. The tello is the opposite. Open the box, charge it, connect the iPad, and off you go. Sure, there is a tiny learning curve, but generally it is so easy that my 7 year old can safely navigate it. If you’re looking for a beginner drone, don’t bother with the cheap ones, get the Tello!",
         "originalLink" : "https://www.amazon.com/Tello-CP-PT-00000252-01-Quadcopter-Drone/dp/B07BDHJJTH/ref=sr_1_10?keywords=drone%2Bkid&qid=1653574713&s=toys-and-games&sr=1-10&th=1",
-        "link" : "affiliate link",
+        "link" : "https://amzn.to/3NxVh4K",
         
 
 
@@ -37,7 +38,7 @@ export let drones = [
     "review4" :"I bought this for my 7 year old granddaughter for Christmas. Her dad showed her how to operate it after they both watched video instruction. I told them not to take outside per other reviews I saw. The next day my granddaughter was operating it like an expert. She was able to make it flip front and back and sideways. She was really happy.",
     "review5" :"This Drone has been perfect for my 8 year old. He got it Christmas morning and learned how to use it and control it that day. The best part is it has to batteries!! So far it's been great!",
     "originalLink" : "https://www.amazon.com/Tomzon-Quadcopter-Adjustment-Beginners-Batteries/dp/B08TMPVTRB/ref=sr_1_5?crid=VI3YDX3LRWG9&keywords=drone+kids&qid=1653583254&sprefix=drone+kid%2Caps%2C230&sr=8-5",
-    "link" : "affiliate link",
+    "link" : "https://amzn.to/3LQGMYs",
     
 
 
@@ -55,7 +56,7 @@ export let drones = [
     "review4" :"Product worked great, then had a bit of a problem. Company responded immediately to my email and quickly addressed the issue. Highly recommend!",
     "review5" :"We had a slight problem with the transmitter not turning on. I emailed their customer service, within hours a new transmitter was mailed to us. We received it within days. Sine, with customer service, was extremely helpful and made the process super easy. The replacement worked great. I recommend this company with many stars.",
     "originalLink" : "https://www.amazon.com/SANROCK-Batteries-Quadcopter-Waypoints-Emergency/dp/B09CGPMN35/ref=sr_1_1?crid=38AI8ETL1WRVI&keywords=drone%2Bkids&qid=1653583913&sprefix=drone%2Bkid%2Caps%2C223&sr=8-1&th=1",
-    "link" : "affiliate link",
+    "link" : "https://amzn.to/38SirUP",
     
 
 
@@ -73,7 +74,7 @@ export let drones = [
     "review4" :"It’s extremely easy to learn how to control, and use the camera on the drone. This is a beyond perfect drone for beginners and it was worth all of the money I paid for it. Everything about this little thing is great!",
     "review5" :"We got this for our 7 year-old for Christmas. It’s taking some practice, but we’re getting really good! Can even land it on someone’s hand now! Stayed together through all of the initial crashes. Impressed!",
     "originalLink" : "https://www.amazon.com/Beginners-Quadcopter-Altitude-Trajectory-Toys-Light/dp/B08TRF2H6N/ref=sr_1_2?crid=38AI8ETL1WRVI&keywords=drone%2Bkids&qid=1653583913&sprefix=drone%2Bkid%2Caps%2C223&sr=8-2&th=1",
-    "link" : "affiliate link",
+    "link" : "https://amzn.to/3GqNcfR",
     
 
 

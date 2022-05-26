@@ -3,7 +3,7 @@
     import { goto } from '$app/navigation';
     
     const handleClick = (/** @type {string} */ route) => {
-            goto("/"+route);
+            goto(route);
         }
     </script>
     
@@ -19,7 +19,7 @@
                     <img src={item.pic} alt="">
                 </div>
                 <div class="link">
-                    <button on:click={() => handleClick()}>
+                    <button on:click={() => handleClick(item.link)}>
                         CHECK PRICE
                     </button>
                 </div>
