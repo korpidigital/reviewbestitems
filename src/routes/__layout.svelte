@@ -11,7 +11,7 @@ import '../app.css';
 </main>
 
 <footer>
-	<p>Amazon disclaimer here</p>
+	<p>As an Amazon Associate I earn from qualifying purchases.</p>
 </footer>
 
 <style>
@@ -33,6 +33,8 @@ import '../app.css';
 		justify-content: center;
 		align-items: center;
 		padding: 40px;
+		font-size: 11px;
+		margin-top: 100px;
 	}
 
 
