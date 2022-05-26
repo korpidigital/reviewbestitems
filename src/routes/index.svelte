@@ -27,10 +27,12 @@
 <style>
 	section {
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 		justify-content: center;
 		align-items: center;
 		flex: 1;
+		flex-wrap: wrap;
+		margin-top: -150px;
 	}
 
 

@@ -12,13 +12,25 @@ const handleClick = (/** @type {string} */ route) => {
 {#each  shops as shops, i}
     
     <div class="card">
-        <div class="pic">
-            <img src={shops.pic} alt="Italian Trulli">
-            
-        </div>
         <div class="desc">
             {shops.desc}
         </div>
+
+        <div class="imggrid">
+        <div class="pic">
+            <img src={shops.pic1} alt="">
+        </div>
+        <div class="pic">
+            <img src={shops.pic2} alt="">
+        </div>
+        <div class="pic">
+            <img src={shops.pic3} alt="">
+        </div>
+        <div class="pic">
+            <img src={shops.pic4} alt="">
+        </div>
+        </div>
+
 
         <div class="link">
             <button on:click={() => handleClick(shops.name)}> go to review </button>
@@ -29,57 +41,60 @@ const handleClick = (/** @type {string} */ route) => {
 {/each}
 
 <style>
+    .imggrid{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 .card{
-    flex-direction: row;
-    height: 150px;
-    width: 80%;
+    flex-direction: column;;
+    height: auto;
+    width: 250px;
     display: flex;
     padding: 10px;
-    border: 3px solid black;
-    margin: 5px;
-    border-radius: 25px;
+    margin: 10px;
+    justify-content: space-between;
+    background-color:  #e6e6e6;
+    border: 1px solid black;
 }
 
 img {
  
-  height: 150px;
+  width: 120px;
   object-fit: contain;
 }
 .pic{
-
+padding: 2px;
  text-align: center;
 
  
 }
 .desc{
-    width: 50%;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
    
     
 }
-@media screen and (max-width:560px){
-    .desc{
-        font-size:20px !important;
-    }  
-}
+
 button{
     height: 100%;
     width: 100%;
     background-color: greenyellow;
     text-transform: uppercase;
     font-weight: bold;
-    border-radius: 25px;
+    
     
   
 }
 .link{
     width: 30%;
     display:block;
-    margin-left:auto;
-    margin-right: 0;
+    margin:0 auto;
+
 }
 </style>
