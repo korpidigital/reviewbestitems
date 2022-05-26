@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-517d6e5f.js",
+    "file": "start-4b414eda.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -37,7 +37,7 @@
     ]
   },
   "src/routes/Shopcard.svelte": {
-    "file": "pages/Shopcard.svelte-343938c3.js",
+    "file": "pages/Shopcard.svelte-58465b09.js",
     "src": "src/routes/Shopcard.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -47,7 +47,7 @@
       "_singletons-d1fb5791.js"
     ],
     "css": [
-      "assets/pages/Shopcard.svelte-f5e6057d.css"
+      "assets/pages/Shopcard.svelte-995a3875.css"
     ]
   },
   "src/routes/drones.svelte": {
@@ -65,7 +65,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-2419fc2e.js",
+    "file": "pages/index.svelte-450cedec.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,

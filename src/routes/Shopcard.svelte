@@ -11,29 +11,30 @@ const handleClick = (/** @type {string} */ route) => {
 
 {#each  shops as shops, i}
     
-    <div class="card">
+    <div class="card" on:click={() => handleClick(shops.name)}>
         <div class="desc">
             {shops.desc}
         </div>
 
         <div class="imggrid">
-        <div class="pic">
-            <img src={shops.pic1} alt="">
-        </div>
-        <div class="pic">
-            <img src={shops.pic2} alt="">
-        </div>
-        <div class="pic">
-            <img src={shops.pic3} alt="">
-        </div>
-        <div class="pic">
-            <img src={shops.pic4} alt="">
-        </div>
+            <div class="vs"><span class="v">V</span> <span class="lightning">&#128498;</span>  <span class="s">S</span> </div>
+            <div class="pic">
+                <img src={shops.pic1} alt="">
+            </div>
+            <div class="pic">
+                <img src={shops.pic2} alt="">
+            </div>
+            <div class="pic">
+                <img src={shops.pic3} alt="">
+            </div>
+            <div class="pic">
+                <img src={shops.pic4} alt="">
+            </div>
         </div>
 
 
-        <div class="link">
-            <button on:click={() => handleClick(shops.name)}> go to review </button>
+        <div class="goto">
+            GO TO REVIEW
             
         </div>
 
@@ -41,10 +42,48 @@ const handleClick = (/** @type {string} */ route) => {
 {/each}
 
 <style>
-    .imggrid{
+
+.v{
+    position: absolute;
+    top: -20%;
+    left: 10%;
+   
+}
+.s{
+    position: absolute;
+    top: 20%;
+    right: 20%;
+   
+}
+.vs{
+    font-size: 70px;
+    position: absolute;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    letter-spacing: -20px;
+    top: 25%;
+    left: 25%;
+    color: #FF69B4;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+     background: rgba(255, 255, 255, 0.7);
+     padding-right: 50px;
+     padding-left: 30px;
+     padding-bottom: 10px;
+     border-radius: 50px;
+
+    
+  
+}
+.imggrid{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        position: relative;
     }
 .card{
     flex-direction: column;;
@@ -56,11 +95,16 @@ const handleClick = (/** @type {string} */ route) => {
     justify-content: space-between;
     background-color:  #e6e6e6;
     border: 1px solid black;
+    
+}
+.card:hover{
+    cursor: pointer;
 }
 
 img {
  
   width: 120px;
+  height: 120px;
   object-fit: contain;
 }
 .pic{
@@ -77,24 +121,21 @@ padding: 2px;
     flex-direction: column;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700;
+    height: 50px;
+    padding-bottom: 5px;
    
     
 }
 
-button{
-    height: 100%;
+
+.goto{
     width: 100%;
-    background-color: greenyellow;
-    text-transform: uppercase;
-    font-weight: bold;
-    
-    
-  
-}
-.link{
-    width: 30%;
     display:block;
     margin:0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    
 
 }
 </style>
