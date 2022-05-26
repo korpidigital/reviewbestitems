@@ -1,10 +1,10 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-1bfff29f.js",
+    "file": "start-517d6e5f.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-d99962de.js",
+      "_index-e2a79a3f.js",
       "_singletons-d1fb5791.js"
     ],
     "dynamicImports": [
@@ -16,47 +16,47 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-f3b463cf.js",
+    "file": "pages/__layout.svelte-ecad108a.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d99962de.js"
+      "_index-e2a79a3f.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-07ca5f37.css"
+      "assets/pages/__layout.svelte-406fa408.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-6c2cb247.js",
+    "file": "error.svelte-2553214e.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d99962de.js"
+      "_index-e2a79a3f.js"
     ]
   },
   "src/routes/Shopcard.svelte": {
-    "file": "pages/Shopcard.svelte-3adc746e.js",
+    "file": "pages/Shopcard.svelte-343938c3.js",
     "src": "src/routes/Shopcard.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d99962de.js",
+      "_index-e2a79a3f.js",
       "_navigation-0e6511d1.js",
       "_singletons-d1fb5791.js"
     ],
     "css": [
-      "assets/pages/Shopcard.svelte-ad2cac39.css"
+      "assets/pages/Shopcard.svelte-f5e6057d.css"
     ]
   },
   "src/routes/drones.svelte": {
-    "file": "pages/drones.svelte-c8c87e1f.js",
+    "file": "pages/drones.svelte-be9f1894.js",
     "src": "src/routes/drones.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d99962de.js",
+      "_index-e2a79a3f.js",
       "_navigation-0e6511d1.js",
       "_singletons-d1fb5791.js"
     ],
@@ -65,22 +65,22 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-d5a6faff.js",
+    "file": "pages/index.svelte-2419fc2e.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d99962de.js",
+      "_index-e2a79a3f.js",
       "src/routes/Shopcard.svelte",
       "_navigation-0e6511d1.js",
       "_singletons-d1fb5791.js"
     ],
     "css": [
-      "assets/pages/index.svelte-32f847cd.css"
+      "assets/pages/index.svelte-49c1c0ce.css"
     ]
   },
-  "_index-d99962de.js": {
-    "file": "chunks/index-d99962de.js"
+  "_index-e2a79a3f.js": {
+    "file": "chunks/index-e2a79a3f.js"
   },
   "_singletons-d1fb5791.js": {
     "file": "chunks/singletons-d1fb5791.js"
